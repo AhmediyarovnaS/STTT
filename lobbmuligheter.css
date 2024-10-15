@@ -1,0 +1,207 @@
+.header_photo{
+    background-image: url(https://cvideo-media.s3.amazonaws.com/uploads/2021/11/11/51e12202ac6b42819933646574e47a6d.jpg?AWSAccessKeyId=AKIA2AT5WLQ55OHT4ZFA&Signature=nJP2nJ0wEWCctO671rqjChDbWoE%3D&Expires=1730490809);
+    position: relative;
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+   
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+.pic{
+    padding-left: 190px;
+    padding-top:40px;
+    z-index: -100;
+}
+.button1{
+    position: relative;
+    font-size: 16px;
+    font-family: Inter, sans-serif;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 255px;
+    border-radius: 38vh;
+    background-color: black;
+    color: white;
+    height: 50px;
+    text-align: center;
+    margin-left: 500px;
+    margin-top: 200px;
+    
+}
+
+.button2{
+    font-family: Inter, sans-serif;
+    position: relative;
+    font-size: 17px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding-top: 13px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 13px;
+    width: 1700px;
+    border-radius: 38vh;
+    background-color: black;
+    color: white;
+    height: 50px;
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 200px;
+    
+}
+.text_head{
+   color:rgb(68, 68, 68);
+   display: block;
+   font-family:Inter, sans-serif;
+   font-size:70px;
+   font-weight:760;
+   letter-spacing:-0.28px;
+   line-height: 45.6px;
+   height: 47px;
+   padding-left: 180px;
+   margin-top: 100px;
+}
+.text{
+    color: black;
+    width: 400px;
+    font-size: 70vh;
+    font-family: Inter, sans-serif;
+    padding-left: 180px;
+    margin-top: 80px;
+    color:rgb(68, 68, 68);
+    font-size: 20px;
+}
+.linear{
+    color: black;
+    margin-top: 8px;
+    margin-bottom: 150px;
+    height: 2px;
+    background-image:linear-gradient(to right, rgba(0, 0, 0, 0) 10px, rgb(0, 0, 0) 20%, rgb(0, 0, 0) 10%, rgba(0, 0, 0, 0) 50%);
+}
+
+
+    body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            max-width: 1800px;
+            margin: 0 auto;
+        }
+        .job-card {
+            position: relative;
+            width: 400px;
+            height: 150%;
+            margin: 15px;
+        }
+        
+        .job-card img{
+            width: 100%;
+            height: 250px;
+            display: block;
+            
+        }
+        .job-card .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 20%;
+            margin-top: 200px;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2em;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+        .job-card:hover .overlay {
+            opacity: 1;
+            
+
+        }
+.nuu{
+    margin-left: 750px;
+    margin-top: 80px;
+    color:rgb(160, 172, 182);
+}    
+a{
+    color:rgb(160, 172, 182);
+}
+h3{
+    margin-right: 100px;
+}
+
+
+@media (max-width: 768px) {
+    .header_photo {
+        height: 400px;
+    }
+
+    .button1, .button2 {
+        margin-left: 20px;
+        margin-top: 20px;
+        width: 90%;
+        text-align: center;
+    }
+
+    .text_head {
+        font-size: 40px;
+        padding-left: 20px;
+        margin-top: 50px;
+    }
+
+    .text {
+        width: 90%;
+        font-size: 16px;
+        padding-left: 20px;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .job-card {
+        width: 90%;
+    }
+
+    .nuu {
+        margin-left: 0;
+        text-align: center;
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 480px) {
+    .button1, .button2 {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .text_head {
+        font-size: 30px;
+    }
+
+    .text {
+        font-size: 14px;
+    }
+}

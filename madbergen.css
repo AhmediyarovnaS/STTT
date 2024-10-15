@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+}
+
+.header_t{
+    margin-left:400px;  
+    margin-top: 60px;
+    font-size: 40px; 
+    font-style: italic;
+}
+.ppp{
+    display: flex;
+    gap:10px;
+    font-size: 20px;
+    margin-left:400px;
+    width:20px;
+    margin-top: 20px;
+}
+.pppp{
+     margin-left:400px;
+     font-size: 20px;
+     gap:6px;
+}
+.button1{
+    position: relative;
+    font-size: 16px;
+    font-family: Inter, sans-serif;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 255px;
+    border-radius: 38vh;
+    
+    color: white;
+    height: 50px;
+    text-align: center;
+    margin-left: 700px;
+    margin-top: 200px;
+    
+}
+
+.button1:hover{
+    color:gray;
+    
+}
+
+@media (max-width: 768px) {
+    .header{
+        width:800px;
+        height:100px;
+        margin:0;
+    }
+    .header_t {
+        margin-top: 900px;
+        display: flex;
+        margin-left: 40px;
+        font-size: 10px;
+        width: 50px;
+    }
+
+    .ppp {
+        display: flex;
+        margin-left: 40px;
+        font-size: 10px;
+        width: 290px;
+        
+        
+    }
+
+    .pppp {
+        margin-left: 40px;
+        font-size: 10px;
+       width: 50px;
+        
+    }
+
+    .button1 {
+        margin-left: 40px;
+        font-size: 10px;
+       width: 50px;
+        font-size: 0.9rem; /* Smaller font size */
+        width: 80%; /* Make button width responsive */
+    }
+}
+
+@media (max-width: 480px) {
+    .header_t {
+        font-size: 1.5rem; /* Smaller font size on small screens */
+    }
+
+    .ppp {
+        font-size: 0.9rem; /* Smaller font size */
+    }
+
+    .pppp {
+        font-size: 0.8rem; /* Smaller font size */
+    }
+
+    .button1 {
+        font-size: 0.8rem; /* Smaller font size */
+        padding: 10px; /* Adjust padding */
+    }
+}

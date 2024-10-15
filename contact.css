@@ -1,0 +1,153 @@
+*{
+    padding-top: 5px;
+    padding-left:13px;
+    padding-right: 13px;
+
+ 
+    a{
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    background-image: url(https://cdn.prod.website-files.com/5f1ebb8e3124ed3524370b0a/6551eff54cb70988dcb841c2_The%20Conduit_Sane_Mad%20arkitekter_credit%20Kyrre%20Sundal%20(11)-p-2000.jpg);
+    position: relative;
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+    z-index: -10;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+    }
+
+}
+.menu{
+    display: flex;
+    font-family: Circular, sans-serif;
+    font-size: 16px;
+    line-height: 2px;
+    position: relative;
+    gap: 30px;
+    margin-top: 0;
+    margin-left: 100px;
+    font-size: 25px;
+    
+    padding-top: 5px;
+    
+}
+.head{
+    margin-bottom: 100px;
+}
+
+.inform{
+    display: flex;
+    margin-top: 300px;
+    width: 500px;
+    justify-content: space-around;
+    gap:200px;
+    font-size: 20px;
+}
+
+.head_text{
+    font-size: 60px;
+    padding-bottom: 100px;
+}
+.mad{
+    width:90px;
+    padding-left: 500px;
+    
+}
+
+
+
+      body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 20px;
+            opacity:1;
+            background-image: url(https://cdn.prod.website-files.com/5f1ebb8e3124ed3524370b0a/6200f0f8962b9aafc5ff4c25_P27_Sane_Materialrom_Kyrre%20Sundal_SMALL-6.jpg);
+            height: 700px;
+            background-size: cover;
+            background-position: center;
+            z-index: -10;
+            background-size: cover !important;
+            background-position: center !important;
+            background-repeat: no-repeat !important;
+            background-attachment: fixed !important;
+    }
+        
+        .container {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            position: relative;
+            top: 160px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .info {
+            margin: 20px 0;
+            font-size: 1.1em;
+            line-height: 1.6;
+            color: #555;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 1em;
+        }
+        button {
+            background: #000000;
+            color: white;
+            padding: 15px;
+            border: none;
+            border-radius: 5px;
+            
+            font-size: 1em;
+            width: 100%;
+        }
+        button:hover {
+            background: #3b3e41;
+        }
+        @media (max-width: 768px) {
+    .menu {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+    }
+
+    .mad {
+        padding-left: 0;
+    }
+
+    .container {
+        padding: 15px;
+        top: 100px; /* Adjust top positioning for smaller screens */
+    }
+
+    h1 {
+        font-size: 24px; /* Adjust heading size */
+    }
+
+    .form-group input, .form-group textarea {
+        font-size: 0.9em; /* Slightly smaller font for inputs */
+    }
+
+    button {
+        padding: 12px; /* Smaller button padding */
+        font-size: 0.9em; /* Slightly smaller font for button */
+    }
+}
